@@ -9,3 +9,11 @@ edition = "2021"
 tokio = { version = "1.36.0", features = ["full"] }
 futures = "0.3.30"
 anyhow = "1.0.79"
+derive-new = "0.6.0"
+tracing = "0.1.40"
+tracing-futures = "0.2.5"
+tracing-subscriber = { version = "0.3.18", features = ["json"] }
+tracing-opentelemetry = "0.22.0"
+opentelemetry = "0.21.0"
+opentelemetry_sdk = "0.21.2"
+opentelemetry-stdout = { version = "0.2.0", features = ["trace"] }
